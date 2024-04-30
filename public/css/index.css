@@ -1,0 +1,67 @@
+body {
+  background: linear-gradient(to right, black, gray);
+}
+nav {
+  background: linear-gradient(to right, black, gray);
+  box-shadow: 1px 2px 15px black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar-head {
+  color: whitesmoke;
+  text-align: center;
+}
+.head1 {
+  font-size: 32px;
+}
+.head2 {
+  font-size: bolder;
+}
+.image-block {
+  margin-top: 30px;
+  padding: 4px;
+  /* border: 1px solid whitesmoke; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.btn-block {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.click-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  transition: transform 1.5s ease-in-out, background-color 0.5s;
+  background-color: rgba(0, 0, 0, 0.594);
+  color: whitesmoke;
+
+  padding: 2px 3px;
+
+  border-radius: 4px;
+}
+.click-btn:hover {
+  background-color: black;
+  border: 1px solid whitesmoke;
+}
+.card-section {
+  display: flex;
+  flex-direction: row;
+  /* padding: 10px; */
+  align-items: center;
+  gap: 20px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.018), white);
+}
+.card-section div {
+  margin-top: 30px;
+  padding: 12px;
+}
+#model-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: red !important;
+}
